@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb2bafc44c490524ca945a5e6124dd60, type: 3}
+  m_Name: Player Attack Stats
+  m_EditorClassIdentifier: 
+  groundAttackCD1: 0.4
+  groundAttackCD2: 0.4
+  groundAttackCD3: 0.4
+  airAttackCD1: 0.4
+  airAttackCD2: 0.4
+  airAttackCD3: 0.4
+  comboLength: 3
+  chainEndedCD: 1
+  comboPersistenceDuration: 1.5
+  groundBoostStrength: 20
+  groundBoostDecayRate: 40
+  airBoostStrength: 60
+  airBoostDecayRate: 120
+  maxMouseDistance: 25
+  minMouseDistance: 5
