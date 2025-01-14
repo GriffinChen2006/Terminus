@@ -8,7 +8,7 @@ public class GroundCombo1State : BaseState
 
     public override void OnEnter()
     {
-        animator.CrossFadeInFixedTime(GroundCombo1Hash, crossFadeDuration);
+        animator.CrossFadeInFixedTime(GroundCombo1Hash, 0);
     }
 
     public override void FixedUpdate()
