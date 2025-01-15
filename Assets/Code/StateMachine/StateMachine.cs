@@ -30,14 +30,16 @@
         void ChangeState(IState state)
         {
             if (state == current.State) return;
-            
+
             var previousState = current.State;
-            var nextState = current.State;
-            
             previousState?.OnExit();
-            nextState?.OnEnter();
+            
             current = nodes[state.GetType()];
-            Debug.Log(current.State);
+            
+            var nextState = current.State;
+            nextState?.OnEnter();
+            
+            Debug.Log(current.State);   
         }
 
         ITransition GetTransition()

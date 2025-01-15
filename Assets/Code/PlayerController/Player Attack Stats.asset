@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb2bafc44c490524ca945a5e6124dd60, type: 3}
   m_Name: Player Attack Stats
   m_EditorClassIdentifier: 
-  groundAttackCD1: 0.4
-  groundAttackCD2: 0.4
-  groundAttackCD3: 0.4
+  groundAttackCD1: 0.8
+  groundAttackCD2: 0.8
+  groundAttackCD3: 0.8
   airAttackCD1: 0.4
   airAttackCD2: 0.4
   airAttackCD3: 0.4
