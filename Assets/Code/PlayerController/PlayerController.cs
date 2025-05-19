@@ -85,13 +85,13 @@ public class PlayerController : MonoBehaviour
         
         var locomotionState = new LocomotionState(this, Animator);
         var jumpState = new JumpState(this, Animator);
-        var groundCombo1State = new AttackState(this, Animator, Animator.StringToHash("groundCombo1"));
-        var groundCombo2State = new AttackState(this, Animator, Animator.StringToHash("groundCombo2"));
-        var groundCombo3State = new AttackState(this, Animator, Animator.StringToHash("groundCombo3"));
-        var airCombo1State = new AttackState(this, Animator, Animator.StringToHash("airCombo1"));
-        var airCombo2State = new AttackState(this, Animator, Animator.StringToHash("airCombo2"));
-        var airCombo3State = new AttackState(this, Animator, Animator.StringToHash("airCombo3"));
-        var endComboState = new AttackState(this, Animator, Animator.StringToHash("endCombo"));
+        var groundCombo1State = new GroundCombo1State(this, Animator);
+        var groundCombo2State = new GroundCombo2State(this, Animator);
+        var groundCombo3State = new GroundCombo3State(this, Animator);
+        var airCombo1State = new AirCombo1State(this, Animator);
+        var airCombo2State = new AirCombo2State(this, Animator);
+        var airCombo3State = new AirCombo3State(this, Animator);
+        var endComboState = new EndComboState(this, Animator);
         
         // transitions
         
